@@ -1,7 +1,7 @@
 package Work.srp;
 
  interface Employee {
-    default int getSalary() {
+    public int getSalary() {
         return 0;
     }
  }
